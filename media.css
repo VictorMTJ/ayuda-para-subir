@@ -1,0 +1,23 @@
+@media(max-width:1200px) {
+    body {
+        grid-template-columns: 70px, 1fr;
+    }
+    .sidebar-item span , .sidebar-item h4 {
+        display: var(--nada);
+    }
+    .sidebar-item {
+        padding: 0;
+    }
+    .sidebar-item {
+        padding: 0 20px ;
+    }
+    .chips-wapper{
+        max-width: calc(100vw - 70px);
+    }
+}
+
+@media(max-width:800px){
+    .search-container {
+        display: var(--nada);
+    }
+}       

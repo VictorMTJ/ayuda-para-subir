@@ -1,0 +1,31 @@
+.chips{
+    margin: 12px 6px;
+    background-color: var(--op-color5);
+    padding: 6px 12px;
+    color: var(--color2);
+    cursor: pointer;
+    border-radius: 16px;
+    white-space: nowrap;
+    transition: 0.5s;
+}
+.chips:hover{
+    background-color:var(--sidebar-color);
+}
+.chips-wapper::-webkit-scrollbar{
+    height: 6px;
+}
+.chips-wapper:hover::-webkit-scrollbar-thumb{
+    background-color: var(--sidebar-color);
+}
+.content{
+    grid-area: content;
+}
+.chips-wapper{
+    max-width: calc(100vw - 240px);
+    overflow-x: scroll;
+    background-color: var(--op-color4);
+    display: flex;
+    padding-left: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}

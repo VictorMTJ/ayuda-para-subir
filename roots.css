@@ -1,0 +1,15 @@
+:root{
+    --bordes: 1px solid rgba(255, 255, 255, 0.1);
+    --sidebar-color: #717171;
+    --op-color1: #313131;
+    --op-color2: #202020;
+    --op-color3: #121212; 
+    --op-color4: #181818;
+    --op-color5: #373737;
+    --color1: #aaa;
+    --color2: #fff;
+    --color3: #f2f2f2;
+    --position: relative;
+    --nada: none;
+    --centrado: center;
+}

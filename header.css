@@ -1,0 +1,98 @@
+.logo-img{
+    position: var(--position);
+    height: 25px;
+    width: 30px;
+}
+.logo-container:hover{
+    background-color: var(--op-color1);
+}
+.header{
+    grid-area: header;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--op-color2);
+    height: 100vh;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    gap: 6px;
+}
+.logo{
+    display: flex;
+    gap: 6px;
+    color: var(--color2);
+
+}
+.logo h1{
+    letter-spacing: 2px;
+    color: var(--color2);
+}
+.search-container{
+    display: flex;
+    align-items: var(--centrado);
+    gap: 6px;
+    width: 600px;   
+}
+.search-container form{
+    position: var(--position);
+    width: 100%;
+    display: flex;
+}
+.search-container input{
+    height: 40px;
+    width: 100%;
+    background-color: var(--op-color3);
+    color: var(--color3);
+    padding: 12px;
+    outline: var(--nada);
+    border: var(--bordes);
+    border-radius: 10px 0px 0px 10px;
+
+}
+.search-container button{
+    width:50px;
+    min-width: 40;
+    height: 40px;
+    background-color: var(--op-color1);
+    color: var(--color2);
+    outline: var(--nada);
+    border: var(--nada);
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+.search-container form ~ button{
+    border-radius: 50px;
+}
+.profile-container{
+    display: flex;
+    align-items: var(--centrado);
+    gap: 10px;
+}
+.profile-container a{
+    background-color: var(--op-color1);
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: var(--centrado);
+    justify-content: var(--centrado);
+    color: var(--color2);
+}
+.profile-container a:hover{
+    background-color: var(--op-color1);
+
+}
+
+.logo-container{
+    display: flex;
+    align-items: var(--centrado);
+    color: var(--color2);
+}
+.profile-container img{
+    position: var(--position);
+    width: 40px;
+    height: 40px;
+    border-radius: 60%;
+}
